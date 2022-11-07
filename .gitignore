@@ -102,3 +102,41 @@ web/dynamodb/
 
 # TernJS port file
 web/tern-port
+
+
+#### api-server
+# compiled output
+api-server/dist
+api-server/node_modules
+
+# Logs
+api-server/logs
+api-server/*.log
+api-server/npm-debug.log*
+api-server/pnpm-debug.log*
+api-server/yarn-debug.log*
+api-server/yarn-error.log*
+api-server/lerna-debug.log*
+
+# OS
+api-server/.DS_Store
+
+# Tests
+api-server/coverage
+api-server/.nyc_output
+
+# IDEs and editors
+api-server/idea
+api-server/project
+api-server/classpath
+api-server/c9/
+api-server/*.launch
+api-server/settings/
+api-server/*.sublime-workspace
+
+# IDE - VSCode
+api-server/vscode/*
+!api-server/vscode/settings.json
+!api-server/vscode/tasks.json
+!api-server/vscode/launch.json
+!api-server/vscode/extensions.json
