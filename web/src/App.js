@@ -12,7 +12,7 @@ class Subject extends Component {
     }
 }
 
-class Navigator extends Component {
+class TableOfContent extends Component {
     render() {
         return(
             <nav>
@@ -48,7 +48,7 @@ class App extends Component {
     return (
         <div className="App">
             <Subject></Subject>
-            <Navigator></Navigator>
+            <TableOfContent></TableOfContent>
             <Article></Article>
         </div>
     );
